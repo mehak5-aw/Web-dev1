@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+ <style>
+
+    .input-group label {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px; 
+        margin-right: 15px; 
+        font-size: 16px;
+    }
+
+    body{
+        background-image:url(rr.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        height: 20px;
+        padding: 10px;
+        margin: 20px;
+    }
+    h2{
+
+        text-align: center;
+        border-bottom: 2px solid green;
+        size-adjust: auto;
+    }
+    form{
+        font-size: 15px;
+        gap: 20px;
+        box-shadow: 5px ;
+        width: 250px;
+        padding: 40px;
+       margin: 40px auto 0;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 450px;
+        margin-top: 50px;
+        
+    }
+    input[type="submit"]
+    {
+        font-size: 20px;
+        border-color:black;
+        box-shadow: 3px ;
+        color: black;
+        margin-top: 10px;
+    }
+    div{
+        font-size: 15px;
+        padding-bottom: 12px;
+    }   
+   
+ </style>    
+</head>
+<body>
+<form>
+
+    <h2>Applicant Information</h2><br>
+    <label for="">Full Name</label><br>
+    <input type="text" placeholder="Enter your Name">
+
+</div>
+
+<div>
+    <label for="">Email ID</label><br>
+    <input type="text" placeholder="Enter your Email">
+</div> 
+
+<div>
+    <label for="">Mobile Number</label><br>
+    <input type="text" placeholder="Enter your 876****">
+</div>
+
+ <div>
+    <label for="">Course</label>
+    <select name="Course">
+        <option value="">CCC</option>
+        <option value="">o level</option>
+        <option value="">A level</option>
+        <option value="">A+ level</option>
+    </select>
+ </div>
+
+    <div class="input-group">
+
+        <label>Gender</label><br>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+    </div>
+
+    <div class="input-group">
+    <label>Category</label><br>
+    <label><input type="checkbox" name="category" value="IT"> IT</label>
+    <label><input type="checkbox" name="category" value="Math"> Math</label>
+    <label><input type="checkbox" name="category" value="Phy"> Physics</label>
+    <label><input type="checkbox" name="category" value="Bio"> Biology</label>
+</div>
+
+</div>
+<input type="submit" name=""value="Register"><br>
+</div>
+
+</form>
+</body>
+</html>
