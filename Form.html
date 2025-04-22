@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARSHA</title>
+    <style>
+        *{
+            /* box-sizing: border-box; */
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        body{
+            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+        
+        .logo{
+            background: #023b6d;
+            height: 30px;
+        }
+        .logo img{
+            width: 200px;
+            height: 30px;
+        }
+        .navbar{
+            /* transition: 0.3s; */
+            background-color: #37517e;
+            display: flex;
+            height: 40px;
+            justify-content: space-between;
+            align-items: center;
+            /* padding: 30px 100px; */
+            padding: 10px 10px;
+            /* font-size: 17px; */
+            /* font-weight: 400; */
+            /* font-family: var(--nav-font); */
+            /* color: var(--nav-dropdown-color); */
+
+        }
+        .navlogo{
+            color: #f4f4f4;
+            margin-left: 0px;
+            font-size: 30px;
+            font-weight: 900;
+        }
+        .navdiv a{
+            color: #f4f4f4;
+            padding: 20px;
+            font-size: 15px;
+            /* font-weight: 700; */
+        }
+        .button{
+            background-color: rgb(71, 178, 228);    
+            color: aliceblue;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 5px;
+        }
+        .container{
+            text-align: center;
+            padding: 50px;
+            background-color: #37517e;
+            font-size: 20px;
+            font-weight: 100;
+            align-content: center;
+        }
+        .container img{
+            width: 70%;
+
+        }
+        .hero h1{
+            margin: 0;
+            font-size: 28px;
+           font-weight: 700;
+            /* font-size: 48px; */
+            /* font-weight: bold; */
+            margin-bottom: 20px;
+            color: rgb(217,223,228);
+            text-align: center;
+        }
+        .hero p{
+            font-size: 15px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            color: aliceblue;
+        }
+        .btn{
+            color: #37517e;
+            font-size: 1rem;
+            /* padding: 15px 30px; */
+            /* border: none; */
+            /* border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 0px;
+            margin-bottom: 20px; */
+            font-weight: 600;
+
+        }
+        .client-section img {
+          width: 80px;
+          opacity: 0.8;
+        }
+        .client-section {
+          padding: 40px 10%;
+          background: white;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+        .about-section {
+          padding: 60px 10%;
+          background: #f9f9f9;
+        }
+        .about-section h2 {
+          font-size: 28px;
+          margin-bottom: 20px;
+          color: #2c3e50;
+        }
+        .about-section p {
+          margin-bottom: 10px;
+          color: #333;
+        }
+        .about-section-btn {
+          margin-top: 20px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 10px;
+          background-color: darkcyan;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        .about-section-btn:hover {
+          background-color: #2e8b8b;
+        }
+       
+    select {
+      padding: 5px;
+      font-size: 16px;
+      /* border: 1px solid #ccc; */
+      /* background-color: #fff; */
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      color: #f4f4f4;
+      
+    }
+    option {
+        background-color:rgb(226, 223, 218);
+        color: #333;
+
+    }
+   
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.png" alt=""></div>
+        <div class="add-icon"></div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <div class="navlogo">ARSHA</div>
+            <div class="navdiv">
+                <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Team</a>
+            <a href="#">pricing</a>
+            <a href="#">Blog</a>
+
+  <select id="option" name="drop-down">
+    <option value="Drop Down">Drop Down</option>
+    <option value="Drop-Down-1">Drop-Down-1</option>
+    <option value="Deep Drop Down">Deep Drop Down</option>
+    <option value="Drop-Down-2">Drop-Down-2</option>
+    <option value="Drop-Down-3">Drop-Down-3</option>
+    <option value="Drop-Down-4">Drop-Down-4</option>
+
+  </select>
+          </div>               
+            <button class="button">Get Started</button>
+            
+         <div>
+        </div>
+        </nav>
+        <div class="container">
+            <h1>Better Solutions For Your Business</h1>
+            <p>We are a team of talented designers making websites with Bootstrap</p>
+            <div><img src="hero-img.png" alt=""></div>
+            <button class="btn">Watch video</button>
+        </div>
+        <div>
+            <div class="client-section">
+                <img src="zoetis.png" alt="Client 1">
+                <img src="signi.png" alt="Client 2">
+                <img src="lexma.png" alt="Client 3">
+                <img src="walm.png" alt="Client 4">
+            
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ipsam ab unde odio itaque quasi sequi ullam dolores!</p>
+            <p>Inventore assumenda ullam hic expedita reprehenderit iure culpa molestias atque recusandae eos?</p>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="about-section-btn">Learn More</button>
+        </div>
+</div>
+</body>
+</html>
